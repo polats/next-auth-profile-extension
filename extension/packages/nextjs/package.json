@@ -1,0 +1,22 @@
+{
+    "scripts": {
+        "drizzle-kit": "drizzle-kit",
+        "seed": "tsx services/database/seed.ts"
+    },
+    "dependencies": {
+        "@rainbow-me/rainbowkit-siwe-next-auth": "^0.4.1",
+        "dotenv": "^16.4.5",
+        "drizzle-orm": "^0.32.1",
+        "ethers": "^6.13.1",
+        "next-auth": "^4.24.7",
+        "next-plausible": "^3.12.2",
+        "pg": "^8.12.0",
+        "siwe": "^2.3.2"
+    },
+    "devDependencies": {
+        "@types/pg": "^8",
+        "@types/react-dom": "^18.2.18",
+        "drizzle-kit": "^0.23.0",
+        "tsx": "^4.16.2"
+    }
+}
